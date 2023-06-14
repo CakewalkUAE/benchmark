@@ -1,0 +1,14 @@
+node_modules
+
+/dist
+.env
+.babelrc
+.yarn/cache
+.yarn/install-state.gz
+
+.DS_Store
+**/.DS_Store
+
+public/uploads
+
+package-lock.json
