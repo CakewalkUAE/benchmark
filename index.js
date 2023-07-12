@@ -5,7 +5,7 @@ const cookieParser = require("cookie-parser");
 const dotenv = require("dotenv");
 dotenv.config();
 const app = express();
-
+//Test for NorthFlank
 app.use(compression());
 app.use(cookieParser());
 // http://expressjs.com/en/advanced/best-practice-security.html#at-a-minimum-disable-x-powered-by-header
