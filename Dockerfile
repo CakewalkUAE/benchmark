@@ -15,7 +15,6 @@ RUN cat /etc/hosts
 
 # Bundle app source
 COPY . /usr/src/app
-RUN npx prisma generate
-ENV PORT=5000
-EXPOSE 5000
+ENV PORT=3000
+EXPOSE 3000
 CMD [ "npm", "run","start" ] 
