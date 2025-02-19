@@ -7,7 +7,7 @@ app = "ssapi-app"
 primary_region = "sin"
 
 [http_service]
-  internal_port = 5000
+  internal_port = 3002
   force_https = true
   auto_stop_machines = true
   auto_start_machines = true
